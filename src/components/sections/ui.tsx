@@ -35,7 +35,12 @@ export function SectionShell({
           style={{ background: `${ACCENT}14` }}
         />
       </div>
-      <div className="mx-auto w-full max-w-6xl">{children}</div>
+      <div
+        className="mx-auto max-h-[calc(100vh-80px)] w-full max-w-6xl overflow-y-auto sm:max-h-none sm:overflow-visible"
+        style={{ WebkitOverflowScrolling: "touch" }}
+      >
+        {children}
+      </div>
     </section>
   );
 }

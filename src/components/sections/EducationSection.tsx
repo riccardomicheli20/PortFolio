@@ -53,6 +53,15 @@ export function EducationSection() {
             Campo di studio: Sviluppo e analisi di software e applicazioni
           </p>
         </TiltCard>
+
+        <TiltCard
+          title="Tirocinio Junior Developer"
+          tag="ProconsulGroup"
+          badgeTop="2026"
+          badgeMain="6M"
+        >
+          <p>Tirocinio formativo come Junior Developer · 6 mesi</p>
+        </TiltCard>
       </div>
     </SectionShell>
   );
