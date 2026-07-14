@@ -37,7 +37,9 @@ export function PresentationSection() {
               Scopri il percorso
             </button>
             <FancyButton
-              href="mailto:riccardomicheli20@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=riccardomicheli20@gmail.com&su=Contatto%20dal%20portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-5 py-2.5 text-sm sm:px-6 sm:py-3"
             >
               Contattami
