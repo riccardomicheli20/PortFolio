@@ -36,7 +36,7 @@ export function SectionShell({
         />
       </div>
       <div
-        className="mx-auto max-h-[calc(100vh-80px)] w-full max-w-6xl overflow-y-auto sm:max-h-none sm:overflow-visible"
+        className="mx-auto max-h-[calc(100vh-80px)] w-full max-w-6xl overflow-y-auto sm:max-h-[calc(100vh-136px)] lg:max-h-[calc(100vh-152px)]"
         style={{ WebkitOverflowScrolling: "touch" }}
       >
         {children}
